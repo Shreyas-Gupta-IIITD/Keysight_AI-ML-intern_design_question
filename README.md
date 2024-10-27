@@ -5,6 +5,7 @@ Submitted by: Shreyas Gupta, Akshet Patial
 
 ## Design Problem Statement 1: 
 Build RL solution which initially has a bad policy,so learn the correct policy over time based on the correct/incorrect actions taken by agent.
+
 ***NOTE: Both the solutions have been implemented from scratch***
 
 ### Proposed Solution 1:
