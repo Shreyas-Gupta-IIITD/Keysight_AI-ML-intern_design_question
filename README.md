@@ -14,9 +14,13 @@ GIF of the agent playing `MS PacMan` using Gym:
 ### Solution 2:
 Solve the Cliff Walking problem and and compare the performance using Q-Learning, SARSA, Expected-SARSA
 
-GIF of the agent traversing `Cliff Walking` environment using Gym:
+GIF of the agent traversing in the `Cliff Walking` environment using Gym:
 
 ![Agent Playing](assets/cliffwalking.gif)
+
+video of the agent reaching in the goal in `Cliff Walking` environment using the learned policy:
+
+![Agent Playing](assets/eval-episode-548.mp4)
 
 ## Design Problme 2:
 Build a model to detect presence of Inductor (spiral shaped) using the given Test Spiral.kicad_pcb file.
