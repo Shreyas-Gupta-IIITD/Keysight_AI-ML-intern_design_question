@@ -26,7 +26,7 @@ GIF of the agent traversing in the `Cliff Walking` environment using Gym:
 
 video of the agent reaching in the goal in `Cliff Walking` environment using the learned policy:
 
-![Agent Playing](assets/episode.gif)
+![Agent Playing](assets/episode548.gif)
 
 
 ## Design Problem 2:
