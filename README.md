@@ -1,5 +1,5 @@
 # Keysight AI-ML intern Design Questions
-Repository containing **scratch solutions** to Keysight Design questions for AI/ML intern position.
+Repository containing ***scratch solutions*** to Keysight Design questions for AI/ML intern position.
 
 Submitted by: Shreyas Gupta, Akshet Patial
 
