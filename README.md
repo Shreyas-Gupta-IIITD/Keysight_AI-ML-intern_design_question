@@ -27,7 +27,10 @@ GIF of the agent traversing in the `Cliff Walking` environment using Gym:
 video of the agent reaching in the goal in `Cliff Walking` environment using the learned policy:
 
 ![Agent Playing](assets/episode548.gif)
+plot.png
+The comparison plot for algorithms used in solution 2 is as:
 
+![Agent Playing](assets/plot.png)
 
 ## Design Problem 2:
 Build a model to detect presence of Inductor (spiral shaped) using the given Test Spiral.kicad_pcb file.
