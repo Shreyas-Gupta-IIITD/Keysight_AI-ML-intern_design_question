@@ -16,7 +16,7 @@ Solve the Cliff Walking problem and and compare the performance using Q-Learning
 
 GIF of the agent trversing `Cliff Walking` environment using Gym:
 
-![Agent Playing](assets/CliffWalking.gif)
+![Agent Playing](assets/cliffwalking.gif)
 
 ## Design Problme 2: Build a modle to detect presence of Inductor (spiral shaped) using the given Test Spiral.kicad_pcb file.
 ### Solution:
