@@ -28,8 +28,6 @@ video of the agent reaching in the goal in `Cliff Walking` environment using the
 
 ![Agent Playing](assets/episode548.gif)
 
-https://github.com/user-attachments/assets/a62e50e8-98f1-4971-82f1-ed14b09ddc5e
-
 
 ## Design Problem 2:
 Build a model to detect presence of Inductor (spiral shaped) using the given Test Spiral.kicad_pcb file.
