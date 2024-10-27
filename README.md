@@ -1,10 +1,11 @@
 # Keysight AI-ML intern Design Questions
-Repository containing ***scratch solutions*** to Keysight Design questions for AI/ML intern position.
+Repository contains ***scratch solutions*** to Keysight Design questions for AI/ML intern position.
 
 Submitted by: Shreyas Gupta, Akshet Patial
 
 ## Design Problem Statement 1: 
 Build RL solution which initially has a bad policy,so learn the correct policy over time based on the correct/incorrect actions taken by agent.
+***NOTE: Both the solutions have been implemented from scratch***
 
 ### Proposed Solution 1:
 Play the Pac-Man game using Deep Q-Network(DQN).
