@@ -18,7 +18,7 @@ Succefully run the DQN for 3 episodes which take 2 hr. The complete execution of
 
 ![Agent Playing](assets/episode.png)
 
-To develop a fully working solution for the given Problem statement, now use a simpler algorithm on a smaller environent(done in following soluiton 2)
+To develop a fully working solution for the given Problem statement, now use a simpler algorithm on a smaller environment  (done in following soluiton 2)
 
 ### Proposed Solution 2:
 Solve the Cliff Walking problem and and compare the performance using Q-Learning, SARSA, Expected-SARSA
