@@ -13,7 +13,7 @@ GIF of the agent playing `MS PacMan` game environment using Gym:
 
 succefully run the DQN for 3 episodes which take 2 hr. The complete execution of DQN on 500 episodes is expected to take 300+ hours.
 
-![Agent Playing](assets/Screenshot 2024-10-27 134901.png)
+![Agent Playing](assets/episode.png)
 
 To develop a fully working solution for Problem statement, now use a simpler algorithm on a smaller environent(done in following soluiton 2)
 
