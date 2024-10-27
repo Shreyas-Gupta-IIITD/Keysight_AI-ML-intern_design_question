@@ -11,6 +11,12 @@ GIF of the agent playing `MS PacMan` game environment using Gym:
 
 ![Agent Playing](assets/pacman.gif)
 
+succefully run the DQN for 3 episodes which take 2 hr. The complete execution of DQN on 500 episodes is expected to take 300+ hours.
+
+![Agent Playing](assets/episode.png)
+
+To develop a fully working solution for Problem statement, now use a simpler algorithm on a smaller environent(done in following soluiton 2)
+
 ### Solution 2:
 Solve the Cliff Walking problem and and compare the performance using Q-Learning, SARSA, Expected-SARSA
 
