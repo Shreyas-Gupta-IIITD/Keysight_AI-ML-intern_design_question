@@ -3,7 +3,7 @@ The repository contains ***scratch solutions*** to Keysight Design questions for
 
 Submitted by: Shreyas Gupta, Akshet Patial
 
-PPT Link can found [here](https://www.canva.com/design/DAGUxl9WK2w/FqY6THyusRtpmI54AMLEMQ/edit?utm_content=DAGUxl9WK2w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+PPT Link can be found [here](https://www.canva.com/design/DAGUxl9WK2w/FqY6THyusRtpmI54AMLEMQ/edit?utm_content=DAGUxl9WK2w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ## Design Problem Statement 1: 
 Build an RL solution, which initially has a bad policy, so learn the correct policy over time based on the correct/incorrect actions taken by the agent.
