@@ -71,3 +71,6 @@ The script splits the dataset into training and test sets (80/20).
 Considering the problem as a classification problem, cross-entropy loss (with class weights) was used to address any imbalance in the dataset.
 
 Running the model for 10 Epochs of Testing, the Accuracy reaches 99.81%.
+
+![Test Accuracy Image](assets/Output.png)
+
