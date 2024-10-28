@@ -45,7 +45,7 @@ Build a model to detect the presence of an Inductor (spiral-shaped) using the gi
 ### DataSet Creation: 
 Parse the .kicad_pcb file and extract shapes and layer information based on proximity using `DBSCAN` clustering.
 
-![Generated Image](assets/generated_images.png)
+<img src="assets/generated_images.png" alt="Generated Image" width="400"/>
 
 Notes:
 We may need to adjust the eps parameter in `DBSCAN` for optimal clustering based on the proximity of shapes.
@@ -58,7 +58,7 @@ PiecewiseAffine: Applies distortions for pronounced effects.
 GridDistortion: Distorts the image by altering grid sections to create various effects. some of the images are shown below
 
 <img src="assets/spiral_1.png" alt="Augmented Image" width="300"/>
-<img src="assets/spiral_aug_1.png" alt="Augmented Image" width="300"/>
+<img src="assets/spiral_2.png" alt="Augmented Image" width="300"/>
 
 In the augmented data, some other augmentations were also used, making a total of 8019 images, with 5346 non-spiral images and 2673 spiral images.
 
