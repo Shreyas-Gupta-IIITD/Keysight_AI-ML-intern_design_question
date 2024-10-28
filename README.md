@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/c910fccf-3401-47e2-a305-16bae4e75b52)# Keysight AI-ML intern Design Questions
+# Keysight AI-ML intern Design Questions
 The repository contains ***scratch solutions*** to Keysight Design questions for AI/ML intern positions.
 
 Submitted by: Shreyas Gupta, Akshet Patial
