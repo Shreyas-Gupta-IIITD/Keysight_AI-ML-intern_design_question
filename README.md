@@ -66,6 +66,8 @@ In the augmented data, some other augmentations were also used, making a total o
 
 ### Training the Model
 
+***NOTE: Please download the Augmented DataSet and Model Checkpoints to train the model (Data_Checkpoint.zip) from [here](https://drive.google.com/drive/folders/1MYq1priTaQiPWAG-T5jo0M_6l0K9c5lI?usp=sharing)***
+
 The spiral and Non-Spiral Images have been saved in their respective directories
 
 The following models could have been used: `VGG-19`, `VGG-16`, and `AlexNet`; here, `VGG19` was used to train the model.
@@ -83,7 +85,8 @@ Running the model for 10 Epochs of Testing, the Accuracy reaches 99.81%.
 ![Test Accuracy Image](assets/Output.png)
 
 ### Inferencing the Model
-The model takes Test_Spiral.kicad_pcb file as an input and gives the count of the number of Spiral found in the KiCad file along with the Spiral itself
+The model takes the Test_Spiral.kicad_pcb file as an input and gives the count of the number of Spiral found in the KiCad file along with the Spiral itself
 ![Model output](assets/Model_Prediction.png)
+The Collab File can be found [here](https://colab.research.google.com/drive/1qNok_NYyjd98RmTRv4RUAeylDQk1rGf8#scrollTo=SPyt19HLSy3t). Please download the Test_Spiral.kicad_pcb File and vgg_19_10.pth checkpint from [here](https://drive.google.com/drive/folders/1MYq1priTaQiPWAG-T5jo0M_6l0K9c5lI?usp=sharing)
 
 
