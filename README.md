@@ -87,6 +87,6 @@ Running the model for 10 Epochs of Testing, the Accuracy reaches 99.81%.
 ### Inferencing the Model
 The model takes the Test_Spiral.kicad_pcb file as an input and gives the count of the number of Spiral found in the KiCad file along with the Spiral itself
 ![Model output](assets/Model_Prediction.png)
-The Collab File can be found [here](https://colab.research.google.com/drive/1qNok_NYyjd98RmTRv4RUAeylDQk1rGf8#scrollTo=SPyt19HLSy3t). Please download the Test_Spiral.kicad_pcb File and vgg_19_10.pth checkpint from [here](https://drive.google.com/drive/folders/1MYq1priTaQiPWAG-T5jo0M_6l0K9c5lI?usp=sharing)
+The Collab File can be found [here](https://colab.research.google.com/drive/1qNok_NYyjd98RmTRv4RUAeylDQk1rGf8#scrollTo=SPyt19HLSy3t). Please download the Test_Spiral.kicad_pcb File and vgg_19_10.pth checkpoint from [here](https://drive.google.com/drive/folders/1MYq1priTaQiPWAG-T5jo0M_6l0K9c5lI?usp=sharing)
 
 
