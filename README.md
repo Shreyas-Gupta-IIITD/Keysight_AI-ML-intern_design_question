@@ -43,3 +43,33 @@ The comparison plot for algorithms used in solution 2 is as follows:
 Build a model to detect the presence of an Inductor (spiral-shaped) using the given Test Spiral.kicad_pcb file.
 
 ### Solution:
+
+### DataSet Creation: 
+Parse the .kicad_pcb file and extract shapes and layer information based on proximity using `DBSCAN` clustering.
+
+Generated images for each identified cluster on each layer.
+
+Notes:
+We may need to adjust the eps parameter in DBSCAN for optimal clustering based on the proximity of shapes.
+
+### Data Augmentation:
+We did data augmentation on the image generated above using:
+
+PiecewiseAffine: Applies distortions for pronounced effects.
+GridDistortion: Distorts the image by altering grid sections to create various effects.
+
+In the augmented data, some other augmentations were also used, making a total of 8019 images, with 5346 non-spiral images and 2673 spiral images.
+
+### Training the Model
+
+The spiral and Non-Spiral Images have been saved in their respective directories
+
+Multiple models can be used, such as VGG-19, VGG-16, and AlexNet; here, VGG19 has been used to train the model.
+
+Each image is labeled based on its directory (0 for spirals, 1 for non-spirals).
+
+The script splits the dataset into training and test sets (80/20).
+
+Considering the problem as a classification problem, cross-entropy loss (with class weights) was used to address any imbalance in the dataset.
+
+Running the model for 10 Epochs of Testing, the Accuracy reaches 99.81%.
