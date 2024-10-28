@@ -1,7 +1,9 @@
-# Keysight AI-ML intern Design Questions
+![image](https://github.com/user-attachments/assets/c910fccf-3401-47e2-a305-16bae4e75b52)# Keysight AI-ML intern Design Questions
 The repository contains ***scratch solutions*** to Keysight Design questions for AI/ML intern positions.
 
 Submitted by: Shreyas Gupta, Akshet Patial
+
+PPT Link can found [here]([https://example.com/dataset](https://www.canva.com/design/DAGUxl9WK2w/FqY6THyusRtpmI54AMLEMQ/edit?utm_content=DAGUxl9WK2w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton))
 
 ## Design Problem Statement 1: 
 Build an RL solution, which initially has a bad policy, so learn the correct policy over time based on the correct/incorrect actions taken by the agent.
@@ -79,4 +81,9 @@ Considering the problem as a classification problem, weighted cross-entropy loss
 Running the model for 10 Epochs of Testing, the Accuracy reaches 99.81%.
 
 ![Test Accuracy Image](assets/Output.png)
+
+### Inferencing the Model
+The model takes Test_Spiral.kicad_pcb file as an input and gives the count of the number of Spiral found in the KiCad file along with the Spiral itself
+![Model output](assets/Model_Prediction.png)
+
 
