@@ -45,6 +45,8 @@ Build a model to detect the presence of an Inductor (spiral-shaped) using the gi
 ### DataSet Creation: 
 Parse the .kicad_pcb file and extract shapes and layer information based on proximity using `DBSCAN` clustering.
 
+![Generated Image](assets/generated_images.png)
+
 Notes:
 We may need to adjust the eps parameter in `DBSCAN` for optimal clustering based on the proximity of shapes.
 
@@ -53,7 +55,10 @@ We did data augmentation on the image generated above using:
 
 PiecewiseAffine: Applies distortions for pronounced effects.
 
-GridDistortion: Distorts the image by altering grid sections to create various effects.
+GridDistortion: Distorts the image by altering grid sections to create various effects. some of the images are shown below
+
+![Augmented Image](assets/spiral_1.png)
+![Augmented Image](assets/spiral_aug_1.png)
 
 In the augmented data, some other augmentations were also used, making a total of 8019 images, with 5346 non-spiral images and 2673 spiral images.
 
@@ -66,6 +71,8 @@ The following models could have been used: `VGG-19`, `VGG-16`, and `AlexNet`; he
 Each image is labeled based on its directory (0 for spirals, 1 for non-spirals).
 
 The script splits the dataset into training and test sets (80/20).
+
+![Copy File Image](assets/copy_Files.png)
 
 Considering the problem as a classification problem, weighted cross-entropy loss was used to address any imbalance in the dataset.
 
