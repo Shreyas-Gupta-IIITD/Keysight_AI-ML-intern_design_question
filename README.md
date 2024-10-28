@@ -57,8 +57,8 @@ PiecewiseAffine: Applies distortions for pronounced effects.
 
 GridDistortion: Distorts the image by altering grid sections to create various effects. some of the images are shown below
 
-![Augmented Image](assets/spiral_1.png)
-![Augmented Image](assets/spiral_aug_1.png)
+<img src="assets/spiral_1.png" alt="Augmented Image" width="300"/>
+<img src="assets/spiral_aug_1.png" alt="Augmented Image" width="300"/>
 
 In the augmented data, some other augmentations were also used, making a total of 8019 images, with 5346 non-spiral images and 2673 spiral images.
 
